@@ -6,10 +6,12 @@
     "start": "node web"
   },
   "dependencies": {
-    "node": "0.8.16",
-    "npm": "1.1.69",
     "express": "3.1.0",
     "hjs": "0.0.4"
+  },
+    "engines" : {
+    "node" : "0.8.x",
+    "npm" : "1.1.x"
   },
   "devDependencies": {
     "nodemon" : "0.7.2"
